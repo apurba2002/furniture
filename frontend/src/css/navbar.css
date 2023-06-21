@@ -5,6 +5,33 @@
         text-align: center;
     }
     .tittle{
-        margin-left: 10%;
+       margin-left: 10%;
     }
+    .navimg{
+        height: 20px;
+        
+    }
+    .search{
+        width: 30%;
+    }
+    
+}
+.navimg{
+    height: 20px;
+    margin-right: 10px;
+  
+}
+.input{
+    
+    width: 96%;
+    margin-left: 2%;
+
+}
+.button{
+    width: 50%;
+   
+    margin-left: 50%;
+    margin-top: 5px;
+    
+
 }
