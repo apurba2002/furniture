@@ -1,0 +1,21 @@
+#midnav1{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#midnav1 a{
+    font-size: 25px;
+    color: gray;
+    text-decoration: none;
+    padding: 10px;
+}
+#midnav1 div{
+    display: flex;
+    justify-content: space-between;
+}
+#midnav1 a:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
