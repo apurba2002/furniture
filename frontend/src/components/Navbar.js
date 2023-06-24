@@ -3,25 +3,38 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "../css/navbar.css"
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Navbar() {
-    // Selecting elements
-   
+
+    function show() {
+        const menuBtn = document.querySelector('#navbtn');
+        const menu = document.querySelector('#resgrp');
+        menu.classList.toggle('show')
+
+
+    }
+
 
     return (
-        <section id="navbar">
-            <nav class="navbar">
-                <div class="logo">Logo</div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+        <section id="navbar" className="fixed-top">
+            <div className="navgrp">
+                <h1>Furnituaria</h1>
+                <ul className="navlink">
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Call Now</li>
                 </ul>
-                <div class="toggle-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div>
+                    <img id="navbtn" onClick={show} src="barger.png" alt=""></img>
                 </div>
-            </nav>
+            </div>
+            <div id="resgrp" className="resgrp">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                    <li>Call Now</li>
+                </ul>
+            </div>
 
         </section>
     )
