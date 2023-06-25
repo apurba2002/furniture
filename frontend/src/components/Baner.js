@@ -8,7 +8,7 @@ function Baner() {
             <section id="baner">
                 <h1 className="tittle" >Discover the best furnitures</h1>
                 <p>"Discover exquisite furniture at unbeatable prices on our top-rated online furniture store!"</p>
-                <img src="topbaner.jpg"></img>
+                <img alt="" src="topbaner.jpg"></img>
                 <div>
                     <button style={{ marginRight: '10%' }} >Order Now</button>
                     <button>Explore more</button>
