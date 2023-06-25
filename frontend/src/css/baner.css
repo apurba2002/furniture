@@ -4,19 +4,20 @@
         background-size: cover;
         height: 700px;
         background-repeat: no-repeat;
-        width: 100%;
+        width: 80%;
+        margin-left: 10%;
         background-position: center;
 
     }
     #baner img{
-        width: 40%;
+        width: 50%;
         height: 300px;
-        margin-left: 10%;
+      
         margin-top: 50px;
     }
     #baner div{
-        margin-left: 10%;
-        width: 40%;
+        
+        width: 50%;
     }
     #baner div button{
         width: 45%;
