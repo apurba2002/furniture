@@ -5,6 +5,7 @@ import Navbar from "./Navbar.js";
 import Product from "./Product.js";
 import Product1 from "./Product1.js";
 import Product2 from "./Product2.js";
+import Product3 from "./Product3.js";
 import Productcard from "./Productcard.js";
 
 
@@ -22,6 +23,7 @@ function App() {
            <Midnav2 />
             <Product1 />
             <Product2 />
+            <Product3 />
         </>
 
     )

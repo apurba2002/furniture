@@ -1,0 +1,64 @@
+@media (min-width:768px){
+    #product3{
+        width: 80%;
+        margin-bottom: 100px;
+        
+
+    }
+    #product3 h1{
+        width: 80%;
+        text-align: center;
+        
+    }
+    #phead{
+        display: flex;
+        justify-content: center;
+    }
+    #ptxt{
+        display: flex;
+        justify-content: center;
+    }
+    #ptxt p{
+        width: 80%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #wap-product3{
+        display: flex;
+        justify-content: center;
+        
+    }
+    #imggrp{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+
+    }
+    #imggrp img {
+        width: 40%;
+        height: 400px;
+    }
+    #imggrp div{
+        width: 20%;
+        padding-top: 65px;
+    }
+    #imggrp div h1{
+        text-align: left;
+        width: 100%;
+    }
+    #imggrp div button{
+        padding: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        background-color: transparent;
+        border: 1px solid black;
+        margin-top: 20px;
+    }
+    #imggrp div button:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+
+}
