@@ -1,0 +1,35 @@
+@media (min-width:768px) {
+
+    #product1 img {
+        width: 35%;
+        height: 500px;
+
+    }
+
+    #product1 {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+
+    #product1 div {
+        width: 60%;
+        padding-top: 85px;
+    }
+
+    #product1 button{
+        padding: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 30%;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+    #product1 button:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+}
