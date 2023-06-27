@@ -1,9 +1,13 @@
 import "../css/product3.css"
 function Product3() {
+   
+    
+        
+
     return (
         <>
             <div id="wap-product3">
-                <div id="product3">
+                <div id="product3"  >
                     <div id="phead">
                         <h1>Modern furniture crafted with elegance</h1>
                     </div>
@@ -31,8 +35,10 @@ function Product3() {
                     </div>
 
                 </div>
+               
 
             </div>
+            <p>jjj</p>
         </>
     )
 }

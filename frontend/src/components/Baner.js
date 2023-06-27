@@ -3,6 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import "../css/baner.css"
 import { Button } from 'bootstrap';
 function Baner() {
+    
     return (
         <>
             <section id="baner">
