@@ -38,7 +38,7 @@ function Product3() {
                
 
             </div>
-            <p>jjj</p>
+          
         </>
     )
 }

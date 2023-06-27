@@ -1,0 +1,35 @@
+@media (min-width:768px){
+    #service-waper{
+        display: flex;
+        justify-content: center;
+     
+
+    }
+    #service{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    #service h1{
+        text-align: center;
+    }
+    #service-grp{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+    }
+    #service-grp div{
+        width: 30%;
+      
+        height: 200px;
+    }
+    #service-grp div h1{
+        font-size: 20pt;
+        padding-bottom: 20px;
+        
+    }
+    #service-grp div p{
+        width: 100%;
+        text-align: center;
+    }
+}
