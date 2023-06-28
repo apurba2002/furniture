@@ -1,6 +1,6 @@
 @media (min-width:768px) {
     #baner {
-        background-image: url("../image/baner.jpg");
+       
         background-size: cover;
         height: 700px;
         background-repeat: no-repeat;
@@ -10,49 +10,105 @@
 
 
     }
+    @keyframes baner {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 100%;
+        }
+    }
+    @keyframes baner2 {
+        from{
+            height: 0px;
+        }
+        to{
+            height: 700px;
+        }
+    }
    
     
     #baner img{
-        width: 50%;
+        width: 100%;
         height: 300px;
       
         margin-top: 50px;
+       
     }
-    #baner div{
+    #leftright{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        z-index: -10;
+        top: -130px;
+
+    }
+    #left{
+        width: 45%;
+        position: relative;
+        top: 230px;
+
+    }
+    #left img{
+        animation: baner;
+        animation-duration: 2s;
+    }
+    #right{
+        width: 45%;
+    }
+    #right img{
         
-        width: 50%;
+        
+        height: 700px;
+        animation: baner2;
+        animation-duration: 2s;
+       
+
     }
-    #baner div button{
+    #baner #btngrp{
+        width: 45%;
+        position: relative;
+        top: -310px;
+    }
+    #baner #btngrp button{
         width: 45%;
         height: 50px;
         margin-top: 50px;
-        background-color: white;
+        background-color: transparent;
         border:  1px solid gray;
+       
     }
-    #baner div button:hover{
+    #baner #btngrp button:hover{
         background-color: black;
         color: white;
         transition: 2s;
     }
+   
 }
 
 #baner h1 {
    
     text-align: center;
-    padding-top: 100px;
+    
     font-size: 50px;
     width: 60%;
     margin-left: 20%;
     
-    backdrop-filter: blur(3px);
+
     margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+    top: 100px;
 }
 #baner p{
+    position: relative;
+    z-index: 10;
+    top: 100px;
     text-align: center;
     font-size: 15px;
     width: 50%;
     margin-left: 25%;
-    backdrop-filter: blur(1px);
+
     font-weight: 500;
     
 }

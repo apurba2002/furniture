@@ -16,7 +16,7 @@
 
     #product1 div {
         width: 60%;
-        padding-top: 85px;
+        padding-top: 60px;
     }
 
     #product1 button{
@@ -32,4 +32,10 @@
         color: white;
         transition: 1s;
     }
+}
+#p1readless{
+    display: none;
+}
+#readmore{
+    display: none;
 }

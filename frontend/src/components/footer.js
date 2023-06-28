@@ -21,21 +21,21 @@ function Footer() {
                         <h1>
                             Quick Links
                         </h1>
-                        <p style={{ paddingTop: "17px" }}>Home</p>
-                        <p>Home</p>
+                        <p style={{ paddingTop: "17px" }}><a href="#">Home</a></p>
+                        
                         <p>About</p>
                         <p>Contact</p>
-                        <p>Products</p>
+                        <p><a href="#pc">Products</a></p>
                         <p>Privacy policy</p>
                     </div>
                     <div>
                         <h1>
                             Latest products
                         </h1>
-                        <p style={{ paddingTop: "17px" }}>Home</p>
-                        <p>Large sofa</p>
-                        <p>Small sofa</p>
-                        <p>King Bed</p>
+                        <p style={{ paddingTop: "17px" }}><a href="#">Home</a></p>
+                        <p><a href="#product2">Large sofa</a></p>
+                        <p><a href="#product1">Small sofa</a></p>
+                        <p><a href="#product3">King Bed</a></p>
 
 
 
@@ -44,8 +44,8 @@ function Footer() {
                         <h1>
                             Other links
                         </h1>
-                        <p style={{ paddingTop: "17px" }}>Home</p>
-                        <p>Facebook</p>
+                        <p style={{ paddingTop: "17px" }}><a href="#">Home</a></p>
+                        <p><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
                         <p>Youtube</p>
                         <p>Instagram</p>
                         <p>Tiktok</p>

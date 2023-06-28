@@ -33,3 +33,9 @@
         transition: 1s;
     }
 }
+#p2readless{
+    display: none;
+}
+#readmore2{
+    display: none;
+}

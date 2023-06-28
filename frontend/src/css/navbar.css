@@ -12,6 +12,12 @@
   width: 22%;
   list-style: none;
   text-align: center;
+  cursor: pointer;
+  
+}
+.navlink a{
+  color: black;
+  text-decoration: none;
 }
 .navgrp{
   display: flex;
@@ -74,5 +80,8 @@
 @media (min-width:768px){
     .navgrp div{
       visibility: hidden;
+    }
+    .navlink li:hover{
+      text-decoration: underline;
     }
 }

@@ -18,10 +18,11 @@ function Navbar() {
             <div className="navgrp">
                 <h1>Furnituaria</h1>
                 <ul className="navlink">
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>About</li>
-                    <li>Call Now</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#pc">Products</a></li>
+                    
                 </ul>
                 <div>
                     <img id="navbtn" onClick={show} src="barger.png" alt=""></img>
