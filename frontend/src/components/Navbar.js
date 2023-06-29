@@ -18,7 +18,7 @@ function Navbar() {
             <div className="navgrp">
                 <h1>Furnituaria</h1>
                 <ul className="navlink">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#pc">Products</a></li>

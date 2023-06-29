@@ -1,11 +1,16 @@
 import "../css/product1.css"
 function Product1() {
+
     return (
         <>
 
             <div id="product1">
-                <img src="topbaner.jpg" alt=""></img>
-                <div>
+                <img id="p1img" src="topbaner.jpg" alt=""></img>
+                <div onMouseOver={function () {
+                    document.getElementById("p1img").classList.add("addani")
+                }} onMouseOut={function () {
+                    document.getElementById("p1img").classList.remove("addani")
+                }} >
                     <p>Minimal Design</p>
                     <h1>Editorial interior good bussiness and work</h1>
                     <h1>$200</h1>
@@ -35,7 +40,7 @@ function Product1() {
 
                         document.getElementById("p1readmore").style.display = "block";
                         document.getElementById("p1readless").style.display = "none";
-                        window.location.href="#product1"
+                        window.location.href = "#product1"
 
                     }}>Show Less</button>
                 </div>

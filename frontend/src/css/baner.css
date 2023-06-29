@@ -51,7 +51,8 @@
     }
     #left img{
         animation: baner;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
+       
     }
     #right{
         width: 45%;
@@ -61,7 +62,8 @@
         
         height: 700px;
         animation: baner2;
-        animation-duration: 2s;
+        animation-duration: 1.5s;
+     
        
 
     }

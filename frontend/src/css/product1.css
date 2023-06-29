@@ -1,10 +1,25 @@
 @media (min-width:768px) {
+    @keyframes product1 {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 35%;
+        }
+    }
 
     #product1 img {
         width: 35%;
         height: 500px;
+       
 
     }
+    .addani{
+        animation: product1;
+        animation-duration: 1.5s;
+    }
+ 
+
 
     #product1 {
         display: flex;

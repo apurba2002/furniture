@@ -1,5 +1,17 @@
 @media (min-width:768px) {
-
+   
+    @keyframes product2 {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 35%;
+        }
+    }
+    .addani2{
+        animation: product2;
+        animation-duration: 1.5s;
+    }
     #product2 img {
         width: 35%;
         height: 500px;

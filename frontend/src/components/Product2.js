@@ -5,7 +5,11 @@ function Product2() {
 
             <div id="product2">
                 
-                <div>
+                <div onMouseOver={function () {
+                    document.getElementById("p2img").classList.add("addani2")
+                }} onMouseOut={function () {
+                    document.getElementById("p2img").classList.remove("addani2")
+                }} >
                     <p>Minimal Design</p>
                     <h1>The eye catching designed sofa will fit in any corner</h1>
                     <p>"Introducing the ultimate comfort companion for your living space! Our exquisite sofa combines sleek design with unparalleled coziness, ensuring a truly luxurious experience. Immerse yourself in its plush cushions, crafted with the finest materials, and discover a world of relaxation. Upgrade your home with our irresistible sofa and indulge in unrivaled comfort today!"</p>
@@ -38,7 +42,7 @@ function Product2() {
 
                     }}>Show Less</button>
                 </div>
-                <img src="is12545-image-kwvyfeo1.jpg" alt=""></img>
+                <img id="p2img" src="is12545-image-kwvyfeo1.jpg" alt=""></img>
             </div>
 
         </>
