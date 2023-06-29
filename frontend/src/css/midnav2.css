@@ -71,3 +71,62 @@
 #pgrp{
     margin-bottom: 100px;
 }
+@media (max-width:767px){
+    #midnav2 {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+    #midnav2 div {
+        display: block;
+        width: 100%;
+    }
+    #midnav2 h1 {
+        width: 100%;
+        font-size: 16pt;
+        text-align: center;
+        
+
+    }
+    #midnav2 ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+     
+
+
+    }
+    #midnav2 ul li {
+        width: 20%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        list-style: none;
+        color: gray;
+        text-align: center;
+        cursor: pointer;
+ 
+    }
+    #midnav2 ul li:hover {
+        text-decoration: underline;
+        transition: 2s;
+    }
+
+    #midnav2 a {
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        display: block;
+        border: 1px solid black;
+        background: transparent;
+
+    }
+    
+
+
+}
