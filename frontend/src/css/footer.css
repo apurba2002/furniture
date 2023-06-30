@@ -67,3 +67,68 @@
 #footer a:hover{
     text-decoration: underline;
 }
+@media (max-width:767px){
+    #footer-waper{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background: rgb(26, 25, 25);
+       
+    }
+    #footer{
+        width: 80%;
+        display: block;
+       
+
+    }
+    #footer section{
+        width: 100%;
+      
+     
+        margin-top: 50Px;
+        margin-bottom: 50px;
+    }
+    #footer div{
+        width: 100%;
+    
+       
+        margin-top: 50Px;
+        margin-bottom: 50px;
+    }
+    #footer section #detail{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        text-align: justify;
+    }
+    #footer section #detail P{
+        text-align: justify;
+    }
+    #footer section #detail img{
+        width: 20%;
+        height: 50px;
+
+    }
+    #footer section #detail h1{
+        width: 75%;
+        height: 50px;
+        font-size: 20pt;
+        padding-top: 10px;
+        color: gray;
+    }
+    #footer div h1{
+        font-size: 20pt;
+        padding-top: 10px;
+        color: gray;
+    }
+    #footer section  p{
+        color: gray;
+    }
+    #footer div p{
+        color: gray;
+    }
+
+}

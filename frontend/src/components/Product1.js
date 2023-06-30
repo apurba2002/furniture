@@ -11,7 +11,7 @@ function Product1() {
                 }} onMouseOut={function () {
                     document.getElementById("p1img").classList.remove("addani")
                 }} >
-                    <p>Minimal Design</p>
+                    <p>Minimal Design small sofa</p>
                     <h1>Editorial interior good bussiness and work</h1>
                     <h1>$200</h1>
                     <p>"Introducing the ultimate comfort companion for your living space! Our exquisite sofa combines sleek design with unparalleled coziness, ensuring a truly luxurious experience. Immerse yourself in its plush cushions, crafted with the finest materials, and discover a world of relaxation. Upgrade your home with our irresistible sofa and indulge in unrivaled comfort today!"</p>

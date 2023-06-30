@@ -3,12 +3,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import "../css/navbar.css"
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Navbar() {
+    
+
 
     function show() {
         const menuBtn = document.querySelector('#navbtn');
         const menu = document.querySelector('#resgrp');
         menu.classList.toggle('show')
-
+       
+       
 
     }
 

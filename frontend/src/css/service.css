@@ -33,3 +33,41 @@
         text-align: center;
     }
 }
+@media (max-width:767px){
+    #service-waper{
+        display: block;
+   
+     
+
+    }
+    #service{
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+    #service h1{
+        text-align: center;
+    }
+    #service-grp{
+        width: 100%;
+        display: block;
+        
+        padding-top: 50px;
+    }
+    #service-grp div{
+        width: 100%;
+      
+        
+    }
+    #service-grp div h1{
+        font-size: 12pt;
+        padding-bottom: 20px;
+       
+        
+    }
+    #service-grp div p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}

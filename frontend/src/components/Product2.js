@@ -10,7 +10,7 @@ function Product2() {
                 }} onMouseOut={function () {
                     document.getElementById("p2img").classList.remove("addani2")
                 }} >
-                    <p>Minimal Design</p>
+                    <p>Minimal Design Large sofa</p>
                     <h1>The eye catching designed sofa will fit in any corner</h1>
                     <p>"Introducing the ultimate comfort companion for your living space! Our exquisite sofa combines sleek design with unparalleled coziness, ensuring a truly luxurious experience. Immerse yourself in its plush cushions, crafted with the finest materials, and discover a world of relaxation. Upgrade your home with our irresistible sofa and indulge in unrivaled comfort today!"</p>
                     <p id="readmore2">

@@ -54,3 +54,37 @@
 #readmore{
     display: none;
 }
+@media (max-width:767px){
+    #product1 img{
+        width: 100%;
+    }
+    #product1{
+        width: 100%;
+        
+    }
+    #product1 p{
+        width: 80%;
+        margin-left: 10%;
+        text-align: justify;
+    }
+    #product1 h1{
+        width: 80%;
+        margin-left: 10%;
+        text-align: left;
+    }
+    #product1 button{
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 80%;
+        margin-left: 10%;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+    #product1 button:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+    }
+
+}

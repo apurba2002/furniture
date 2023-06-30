@@ -42,3 +42,17 @@
 #pgrp{
    display: none;
 }
+@media (max-width:767px){
+    #pc div h1 {
+       
+        padding-bottom: 20px;
+    }
+    #pc div:hover{
+        background-color: #0bb945ad;
+        color: white;
+        
+        position: relative;
+        top: 0px;
+        transition: 1s;
+    }
+}
