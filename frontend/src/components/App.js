@@ -7,6 +7,7 @@ import Product1 from "./Product1.js";
 import Product2 from "./Product2.js";
 import Product3 from "./Product3.js";
 import Productcard from "./Productcard.js";
+import About from "./about.js";
 import Footer from "./footer.js";
 import Service from "./sevice.js";
 
@@ -27,6 +28,7 @@ function App() {
             <Product2 />
             <Product3 />
             <Service />
+            <About />
             <Footer />
         </>
 

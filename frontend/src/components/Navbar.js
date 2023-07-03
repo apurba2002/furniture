@@ -23,7 +23,7 @@ function Navbar() {
                 <ul className="navlink">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#pc">Products</a></li>
                     
                 </ul>
