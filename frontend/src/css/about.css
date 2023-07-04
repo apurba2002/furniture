@@ -1,4 +1,4 @@
-@media(min-width:768px){
+@media(min-width:769px){
     @keyframes aboutimg {
         from{
           
@@ -25,6 +25,8 @@
         margin-left: 10%;
         height: 780px;
         justify-content: space-between;
+        position: relative;
+        top: -50px;
 
     }
     #about div{
@@ -71,6 +73,75 @@
     #about :nth-child(2) p{
         font-size: 12px;
         width: 90%;
+        margin-left: 10%;
+        text-align: justify;
+        top: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+@media(max-width:768px){
+    
+
+    #about{
+        width: 100%;
+        display: block;
+     
+        height: 480px;
+   
+
+    }
+    #about div{
+        width: 100%;
+       
+    }
+    #about :first-child{
+        display: none;
+    }
+    #about :first-child :first-child{
+        position: relative;
+       
+        width: 60%;
+        height: 300px;
+        cursor: pointer;
+        
+    }
+    #about :first-child :nth-child(2){
+        position: relative;
+       cursor: pointer;
+        height: 300px;
+        width: 60%;
+        left: 20%;
+        top: -120px;
+
+
+    }
+    #about :first-child :nth-child(3){
+        position: relative;
+        cursor: pointer;
+        height: 300px;
+        width: 60%;
+        left: 40%;
+        top: -220px;
+        
+
+    }
+    #about :nth-child(2){
+        position: relative;
+        top: 0px;
+        width: 100%;
+       
+    }
+    #about :nth-child(2) h1{
+        width: 100%;
+       text-align: center;
+        display: block;
+        margin-bottom: 20px;
+        
+    }
+    #about :nth-child(2) p{
+        font-size: 12px;
+        width: 80%;
         margin-left: 10%;
         text-align: justify;
         top: 0px;

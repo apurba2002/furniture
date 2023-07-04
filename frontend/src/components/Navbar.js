@@ -24,7 +24,7 @@ function Navbar() {
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#pc">Products</a></li>
+                    <li><a href="#midnav2">Products</a></li>
                     
                 </ul>
                 <div>

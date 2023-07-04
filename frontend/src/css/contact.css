@@ -1,0 +1,86 @@
+@media (min-width:768px) {
+    @keyframes contactimg {
+        from {
+
+            transform: rotateY(360deg);
+
+        }
+
+        to {
+
+            transform: rotateY(0deg);
+
+        }
+    }
+
+    .contactimg {
+        animation: contactimg;
+        animation-duration: 1s;
+        animation-direction: reverse;
+    }
+
+    #contact {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        height: 700px;
+        position: relative;
+        top: 0px;
+
+    }
+
+    #contact :first-child {
+        width: 45%;
+
+
+    }
+
+    #contact :nth-child(2) {
+        width: 45%;
+        
+
+    }
+
+    #contact :nth-child(2) img {
+        width: 100%;
+        height: 300px;
+        top: 100px;
+        position: relative;
+    }
+
+    #contact :first-child :nth-child(2) {
+        width: 100%;
+    }
+
+    #contact :first-child :nth-child(2) input {
+        width: calc(100% - 30px);
+        padding: 30px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 15px;
+        border: 1px solid gray;
+    }
+
+    #contact :first-child :nth-child(2) :nth-child(3) {
+       
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+    #contact :first-child :nth-child(2) :nth-child(4){
+        padding: 10px;
+        width: 30%;
+        margin-top: 20px;
+        background: transparent;
+        border: 1px solid gray;
+        border-radius: 15px;
+        
+    }
+    #contact :first-child :nth-child(2) :nth-child(4):hover{
+        color: white;
+        background: black;
+      
+    }
+
+
+}
