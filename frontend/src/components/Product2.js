@@ -3,13 +3,13 @@ function Product2() {
     return (
         <>
 
-            <div id="product2">
-                
-                <div onMouseOver={function () {
-                    document.getElementById("p2img").classList.add("addani2")
-                }} onMouseOut={function () {
-                    document.getElementById("p2img").classList.remove("addani2")
-                }} >
+            <div id="product2" onMouseOver={function () {
+                document.getElementById("p2img").classList.add("addani2")
+            }} onMouseOut={function () {
+                document.getElementById("p2img").classList.remove("addani2")
+            }} >
+
+                <div >
                     <p>Minimal Design Large sofa</p>
                     <h1>The eye catching designed sofa will fit in any corner</h1>
                     <p>"Introducing the ultimate comfort companion for your living space! Our exquisite sofa combines sleek design with unparalleled coziness, ensuring a truly luxurious experience. Immerse yourself in its plush cushions, crafted with the finest materials, and discover a world of relaxation. Upgrade your home with our irresistible sofa and indulge in unrivaled comfort today!"</p>
@@ -38,7 +38,7 @@ function Product2() {
 
                         document.getElementById("p2readmore").style.display = "block";
                         document.getElementById("p2readless").style.display = "none";
-                        window.location.href="#product2"
+                        window.location.href = "#product2"
 
                     }}>Show Less</button>
                 </div>

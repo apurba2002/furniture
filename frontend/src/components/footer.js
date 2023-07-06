@@ -23,10 +23,10 @@ function Footer() {
                         </h1>
                         <p style={{ paddingTop: "17px" }}><a href="index.html">Home</a></p>
                         
-                        <p>About</p>
-                        <p>Contact</p>
-                        <p><a href="#pc">Products</a></p>
-                        <p>Privacy policy</p>
+                        <p><a href="#about">About</a></p>
+                        <p><a href="#contact">Contact</a></p>
+                        <p><a href="#midnav2">Products</a></p>
+                      
                     </div>
                     <div>
                         <h1>

@@ -84,3 +84,62 @@
 
 
 }
+@media (max-width:767px){
+    #contact {
+        box-sizing: border-box;
+        width: 80%;
+     height: 1500px;
+        margin-left: 10%;
+        height: auto;
+        position: relative;
+        top: 0px;
+     margin-bottom: 100px;
+       
+      
+
+    }
+    #contact :first-child {
+        width: 100%;
+        
+
+
+    }
+    #contact :first-child :nth-child(2) {
+        width: 100%;
+        display: block;
+    }
+    #contact :first-child :nth-child(2) input {
+        width: 100%;
+        padding: 30px;
+        height: 50px;
+        margin-top: 20px;
+        border-radius: 15px;
+        border: 1px solid gray;
+    }
+    #contact :first-child :nth-child(2) :nth-child(3) {
+       
+        padding-top: 30px;
+        padding-bottom: 150px;
+    }
+    #contact :first-child :nth-child(2) :nth-child(4){
+        padding: 10px;
+        width: 70%;
+        margin-top: 20px;
+        background: transparent;
+        border: 1px solid gray;
+        border-radius: 15px;
+        
+    }
+    #contact :first-child :nth-child(2) :nth-child(4):hover{
+        color: white;
+        background: black;
+      
+    }
+
+
+    #contact :nth-child(2) {
+        display: none;
+        
+
+    }
+}

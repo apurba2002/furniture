@@ -4,13 +4,13 @@ function Product1() {
     return (
         <>
 
-            <div id="product1">
+            <div id="product1" onMouseOver={function () {
+                document.getElementById("p1img").classList.add("addani")
+            }} onMouseOut={function () {
+                document.getElementById("p1img").classList.remove("addani")
+            }}>
                 <img id="p1img" src="topbaner.jpg" alt=""></img>
-                <div onMouseOver={function () {
-                    document.getElementById("p1img").classList.add("addani")
-                }} onMouseOut={function () {
-                    document.getElementById("p1img").classList.remove("addani")
-                }} >
+                <div  >
                     <p>Minimal Design small sofa</p>
                     <h1>Editorial interior good bussiness and work</h1>
                     <h1>$200</h1>
