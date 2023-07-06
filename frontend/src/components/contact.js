@@ -48,7 +48,7 @@ function Contact() {
 
                 </div>
                 <div id="contactimg">
-                    <img src="navicon.png"></img>
+                    <img src="navicon.png"  alt=""></img>
 
                 </div>
             </section>
