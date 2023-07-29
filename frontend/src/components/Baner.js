@@ -26,6 +26,11 @@ function Baner() {
                     <button onClick={function () {
                         window.location.href = "#pc"
                     }}>Explore more</button>
+
+
+
+
+                    
                 </div>
             </section>
         </>
