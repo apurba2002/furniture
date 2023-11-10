@@ -27,7 +27,7 @@ function Navbar() {
                     <li><a href="#midnav2">Products</a></li>
 
                 </ul>
-                <div>
+                <div className="berger">
                     <img id="navbtn" onClick={show} src="barger.png" alt=""></img>
                 </div>
             </div>
